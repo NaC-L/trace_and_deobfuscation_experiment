@@ -11,6 +11,8 @@ This repository contains an experimental implementation of a devirtualization pr
 The plan was implementing tracing the code using an emulator and adding them to a list and then optimizing with an optimization that can remove deadstores and detect constants (usually vm constants in the same section with vm handlers but this version doesnt have that check) using a bitset (which is probably not the most memory efficent way and its similar to taintin ) however I wasnt able to achive what was envisioned initially, and there's alot of bugs. 
 However since there's a lack of resources on this topic and I've never saw anyone doing this optimization, probably because using it for only deadstore optimization is inefficent, however this project used the taint optimization for both constant propagation and deadstore. Instead of only deadstore.
 
+It also writes the optimized code back into the binary under ".devirt3" section.
+
 
 <h2>Usage</h2>
 To run the project, follow these steps:
