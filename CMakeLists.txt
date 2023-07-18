@@ -27,7 +27,7 @@ include(FetchContent)
 FetchContent_Declare(
     Zydis
     GIT_REPOSITORY https://github.com/zyantific/zydis.git
-    GIT_TAG master
+    GIT_TAG a6d0c713b71b5009634868389f0ff551871273d6
 )
 FetchContent_GetProperties(Zydis)
 if(NOT Zydis_POPULATED)
@@ -39,7 +39,7 @@ endif()
 FetchContent_Declare(
     Unicorn
     GIT_REPOSITORY https://github.com/unicorn-engine/unicorn.git
-    GIT_TAG master
+    GIT_TAG d4b92485b1a228fb003e1218e42f6c778c655809
 )
 FetchContent_GetProperties(Unicorn)
 if(NOT Unicorn_POPULATED)
@@ -51,7 +51,7 @@ endif()
 FetchContent_Declare(
     LIEF
     GIT_REPOSITORY https://github.com/lief-project/LIEF.git
-    GIT_TAG master
+    GIT_TAG b265280a635cdc5d37a2872e1e1f365d8fe4edbc
 )
 FetchContent_GetProperties(LIEF)
 if(NOT LIEF_POPULATED)
