@@ -16,15 +16,23 @@ However since there's a lack of resources on this topic and I've never saw anyon
 To run the project, follow these steps:
 
 1. Clone the repository:
-```git clone [https://github.com/NaC-L/trace_and_deobfuscation_experiment](https://github.com/NaC-L/trace_and_deobfuscation_experiment)https://github.com/NaC-L/trace_and_deobfuscation_experiment```
+
+
+ ```git clone https://github.com/NaC-L/trace_and_deobfuscation_experiment.git```
 
 2. Navigate to the project directory:
-```cd trace_and_deobfuscation_experiment```
+
+
+ ```cd trace_and_deobfuscation_experiment```
 
 3. create a build folder and use cmake
- ``` mkdir build & cd build & cmake .. ```
+
+
+ ```mkdir build & cd build & cmake .. ```
 
 4. build it using VS
 
 5. then execute it using
- ```  TAD.exe (filename) (emulation start address) (emulation end address) (optional stack turned into pseudo-constant 0/1) ```
+
+
+ ```TAD.exe (filename) (emulation start address) (emulation end address) (optional stack turned into pseudo-constant 0/1) ```
